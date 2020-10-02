@@ -1,0 +1,16 @@
+#gallery {
+  background-color: #aaf;
+  width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#gallery .photos img {
+  width: auto;
+  display: none;
+  margin: 0 auto;
+}
+
+#gallery .photos img:first-child {
+  display: block;
+}
